@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Miscellaneous support for editing text files.
 
-%description -l pl 
+%description -l pl
 Wsparcie do edycji róznych typów plików.
 
 %prep
@@ -31,13 +31,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/text-modes/ChangeLog 
+gzip -9nf lisp/text-modes/ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/text-modes/ChangeLog.gz 
+%doc lisp/text-modes/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
