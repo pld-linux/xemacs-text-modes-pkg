@@ -2,12 +2,12 @@ Summary:	Miscellaneous support for editing text files
 Summary(pl):	Wsparcie do edycji ró¿nych typów plików
 Name:		xemacs-text-modes-pkg
 %define 	srcname	text-modes
-Version:	1.71
-Release:	2
+Version:	1.90
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	39be167962dc1a547a13f8bb1788327f
+# Source0-md5:	f2d5111f6e561b595aead30333b704cf
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
