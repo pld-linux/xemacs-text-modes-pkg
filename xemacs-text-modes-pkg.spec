@@ -1,5 +1,5 @@
 Summary:	Miscellaneous support for editing text files
-Summary(pl.UTF-8):   Wsparcie do edycji różnych typów plików
+Summary(pl.UTF-8):	Wsparcie do edycji różnych typów plików
 Name:		xemacs-text-modes-pkg
 %define 	srcname	text-modes
 Version:	1.90
