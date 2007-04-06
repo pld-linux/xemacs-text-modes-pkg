@@ -6,7 +6,7 @@ Version:	1.90
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	f2d5111f6e561b595aead30333b704cf
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
