@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Wsparcie do edycji różnych typów plików
 Name:		xemacs-text-modes-pkg
 %define 	srcname	text-modes
 Version:	1.98
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
@@ -40,6 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/text-modes/ChangeLog
+%doc %{_datadir}/xemacs-packages/lisp/text-modes/ChangeLog
+%doc %{_datadir}/xemacs-packages/pkginfo/MANIFEST.text-modes
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.el*
